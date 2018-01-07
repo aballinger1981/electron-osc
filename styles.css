@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.message-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#message {
+  height: 100px;
+  width: 90%;
+  font-size: 3em;
+}
+
+#send {
+  margin-top: 15px;
+  width: 75px;
+}
